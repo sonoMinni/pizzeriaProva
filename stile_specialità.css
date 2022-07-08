@@ -1,0 +1,130 @@
+@font-face {
+    font-family: "Sansation";
+    src: url("../html/Sansation_Bold.ttf") format("ttf"),
+         url("../html/Sansation_Bold_Italic.ttf") format("ttf");
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+}
+#border{
+    border: 15px solid #A4844C;
+    height: 100vh; 
+    box-sizing: border-box; 
+    background: radial-gradient(circle, rgba(255,255,255,0) 9%, rgba(164,132,76,0.7063200280112045) 84%);
+ }
+#banner{
+    background-color: #F2403C;
+    width: 100%;
+    height: 150px; 
+    display: flex;
+    align-items: center;    
+    flex-direction: row;
+    justify-content: space-between;
+}
+#logo{
+    margin-left: 2.5%;
+    width: 400px;
+    border-radius: 15px;
+}
+#titoli{
+    color: red;
+    font-size: 32px;
+    font-family: 'Sansation', sans-serif;
+    text-align: left;
+    margin-left: 5%;
+    margin-top: 5%;
+    width: auto;
+    text-decoration:black;
+    
+}
+#sottotilo{
+    font-family: 'Sansation', sans-serif;
+    font-size: 22px;
+    margin-left: 5%;
+    width: 25%;
+    text-align: left;
+}
+
+#border:before {
+    content: " ";
+    position: absolute;
+    z-index: -1;
+    top: 21px;
+    left: 21px;
+    right: 21px;
+    bottom: 21px;
+    border-left: 4px solid #EC3C34;
+    border-right: 4px solid #EC3C34;
+    border-bottom: 4px solid #EC3C34;
+  }
+#voci{
+    color: #ffff;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: right;
+    flex-direction: row;
+    justify-content: right;
+    margin-left: 5%;
+    margin-right: 2.5%;
+}
+#voci a{
+    margin: 3%;
+    font-family: 'Sansation', sans-serif;
+    text-align: center;
+    white-space: nowrap
+    
+}
+#voci a:visited{
+    text-decoration: none;
+    color: white;
+}
+#voci a:link{
+    text-decoration: none;
+    color: white;
+}
+
+.link:hover{
+    font-weight: 600;
+
+}
+.h1Mattonelle{
+    color: #fff6c2;
+    font-family: 'Sansation', sans-serif;
+    margin-top: 5%;
+    margin-left: 5%;
+    width: auto;
+    display: flex;
+    align-items: left;
+    width: fit-content;
+    block-size: fit-content;
+    text-align: left;
+}
+.h1PizzeSpeciali{
+    color: #fff6c2;
+    font-family: 'Sansation', sans-serif;
+    text-align: left;
+    margin-top: 5%;
+    margin-right: 5%;
+    width: auto;
+    display: flex;
+    align-items: right;
+    width: fit-content;
+    block-size: fit-content;
+
+}
+.tutto{
+    background-image: url(../grafiche/muro.jpg);
+}
+#principale{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+#mattonella{
+    width: 500px;
+    height: 500px;
+    
+}

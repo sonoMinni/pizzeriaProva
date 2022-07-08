@@ -1,0 +1,130 @@
+@font-face {
+    font-family: "Sansation";
+    src: url("../html/Sansation_Bold.ttf") format("ttf"),
+         url("../html/Sansation_Bold_Italic.ttf") format("ttf");
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+}
+#border{
+    border: 15px solid #A4844C;
+    height: 100vh; 
+    box-sizing: border-box; 
+    background: radial-gradient(circle, rgba(164,132,76,1) 0%, rgba(2,0,36,0) 100%);
+
+ }
+#banner{
+    background-color: #F2403C;
+    width: 100%;
+    height: 150px; 
+    display: flex;
+    align-items: center;    
+    flex-direction: row;
+    justify-content: space-between;
+}
+#logo{
+    margin-left: 2.5%;
+    width: 400px;
+    border-radius: 15px;
+}
+#titoli{
+    color: #fff6c2;
+    font-family: 'Sansation', sans-serif;
+    text-align: center;
+    margin-top: 2.5%;
+    width: auto;    
+}
+#sottotilo{
+    font-family: 'Sansation', sans-serif;
+    font-size: 22px;
+    margin-left: 5%;
+    width: 25%;
+    text-align: left;
+}
+
+#border:before {
+    content: " ";
+    position: absolute;
+    z-index: -1;
+    top: 21px;
+    left: 21px;
+    right: 21px;
+    bottom: 21px;
+    border-left: 4px solid #EC3C34;
+    border-right: 4px solid #EC3C34;
+    border-bottom: 4px solid #EC3C34;
+  }
+#voci{
+    color: #ffff;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: right;
+    flex-direction: row;
+    justify-content: right;
+    margin-left: 5%;
+    margin-right: 2.5%;
+}
+#voci a{
+    margin: 3%;
+    font-family: 'Sansation', sans-serif;
+    text-align: center;
+    white-space: nowrap
+    
+}
+#voci a:visited{
+    text-decoration: none;
+    color: white;
+}
+#voci a:link{
+    text-decoration: none;
+    color: white;
+}
+.linkInsta{
+    height: 150px;
+    width: 300px;
+    background-color: #A4844C;
+    text-decoration: none;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+.link:hover{
+    font-weight: 600;
+}
+.pizza{
+    display: flex;
+    align-items: center;
+}
+.nome{
+    color: #fff6c2;
+    font-size: 32px;
+    font-family: 'Sansation', sans-serif;
+    text-align: center;
+}
+.descrizione{
+    font-family: 'Sansation', sans-serif;
+    font-size: 22px;
+    text-align: center;
+    align-items: center;
+    color: #fff6c2;
+}
+.titolone{
+    color: #fff6c2;
+    font-family: 'Sansation', sans-serif;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fotoPizza{
+    width: 20rem;
+    height: 20rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tutto{
+    background-image: url(../grafiche/muro.jpg);
+}
